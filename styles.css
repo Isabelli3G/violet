@@ -1,0 +1,57 @@
+body {
+    color: black;
+    background: white;
+    margin: 0px;
+    font-family: "Raleway", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 10px rgb(165, 87, 42);
+    padding: 20px;
+    font-size: x-large;
+    color: rgb(165, 87, 42);
+}
+
+.chamada {
+    background: rgb(236 200 131 / 87%);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px
+}
+
+P {
+    font-size: 30px
+}
+
+.categoria-livro {
+    display: flex;
+    overflow-x: auto;
+}
+
+.categoria {
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 50px;
+}
+.categoria-livro img {
+    opacity: 0.5;
+    height: 350px
+}
+.categoria-livro img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(165, 87, 42);
+}
